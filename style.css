@@ -1,0 +1,357 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-light{
+    background-color: #F0FFF0!important;
+}
+/*-------------------------- navigation area ---------------------------*/
+.navigation{
+    background-color: #F0FFF0!important;
+}
+.navigation .navbar img{
+    width: 198px;
+}
+.nav-top-padding{
+    padding-top: 30px;
+}
+.navigation .navbar #navbarNav ul li a{
+color: black;
+font-size: 16px;
+}
+.designed-btn{
+    color: white;
+    background-image: linear-gradient(45deg,#21B573,#cce7cc);
+    font-size: 16px;
+    padding: 10px 24px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.navigation .navbar #navbarNav .designed-btn a{
+    color: white;
+    text-decoration: none; 
+}
+.padding-tb19{
+    padding: 19px 0px;
+}
+/*-------------------------- banner area ---------------------------*/
+.banner-area{
+    background-color: #F0FFF0;
+}
+.banner-area{
+    padding-top: 200px;
+    padding-bottom: 60px;
+} 
+.banner-area h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 19px;
+}
+p{
+    color: #585859;
+}
+.banner-area .container p:nth-child(1){
+    color: #FD511A;
+    padding: 0px 0px;
+}
+.banner-area h1 span{
+    color: #21B573;
+}
+/*-------------------------- Activity area ---------------------------*/
+
+.activity-area,.course-area,.about-area,.tesimonial-area,.contact-area,.subscribe,.footer-area{
+    padding: 100px 0px;
+}
+.single-activity{
+    width: 270px;
+    height: 270px;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.single-activity img{
+    width: 80px;
+    height: 160px;
+    padding: 35px 0px;
+}
+.single-activity h4{
+    color: #413960;
+}
+.white-bg{
+    background-color: white!important;
+}
+.box-shadow{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/* ------------------------------About Us Area-------------------------- */
+
+.about-area .col-md-6 img{
+    width: 400px;
+    text-align: center;
+    border: 5px solid #F0FFF0;
+    padding:15px;
+    box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.1);
+}
+.about-area .about-info{
+    position: relative;
+    padding-left: 40px;
+}
+.about-area .about-info:after{
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 100%;
+    background-color: #44BF85;
+    top: 0;
+    left: 0;
+}
+.about-area .about-info:before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #44BF85;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    transform: rotate(45deg);
+
+}
+.about-area .col-sm-12 img {
+    margin: auto;
+}
+/*-------------------------- Online Courses area ---------------------------*/
+
+.course-area h3,.about-area h3,.tesimonial-area h3,.contact-area h3{
+    color:#413960;
+    padding-bottom: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.course-area .card-deck .card{
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin: 15px 0px;
+}
+.course-area .card-deck .card img{
+padding: 24px 19px;
+}
+.course-area .card-deck .card .card-footer{
+    background-color: #fff;
+    border: none;
+    padding-bottom: 24px;
+}
+.course-area .card-deck .card .card-footer h6 img{
+   width: 24px;
+   padding: 0px 0px;
+   padding-right: 8px;
+}
+/*-------------------------- Testimonial area ---------------------------*/
+
+.tesimonial-area img{
+    width: 120px;
+    height: 120px;
+    padding: 0px 0px;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+}
+.tesimonial-area p{
+    color: black;
+    padding-top: 20px;
+    font-size: 16px;
+}
+/*-------------------------- Contact Us area ---------------------------*/
+.contact-info{
+    background-color: white;
+    padding: 70px 40px;
+    box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.contact-form{
+    background-color: #F0FFF0;
+    padding: 50px 50px;
+}
+.contact-area .contact-info h2{
+    font-weight: bold;
+    font-size: 38px;
+    color: #21B573;
+}
+.contact-area .contact-info p{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+/*-------------------------- NewsLetter area ---------------------------*/
+.subscribe{
+background-color: #F8FFFB;
+}
+.subscribe .newsletter{
+background-color:#40BE83;
+padding: 80px 20px;
+}
+.subscribe .newsletter .col-md-8 h3{
+color: white;
+}
+/*-------------------------- Footer area ---------------------------*/
+.footer-area{
+    background-color: #282531;
+    color: white;
+}
+.footer-area h6{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-area p{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    word-spacing: 4px;
+}
+.align-center{
+    text-align: center;
+}
+.paading-t150{
+    padding-top: 150px;
+}
+.footer-area{
+padding-bottom: 30px;
+}
+
+@media(min-width: 920px) and (max-width:1199px){
+    .banner-area h1{
+        font-size: 38px;
+        padding-bottom: 10px;
+    }
+    .course-area .card-deck .card h6{
+        font-size: .8rem;
+    }
+}
+@media(min-width: 768px) and (max-width:991px){
+    .banner-area h1{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .course-area .card-deck .card .card-footer h6 img {
+    width: 14px;
+    padding-right: 1px;
+}
+    .course-area .card-deck .card h6{
+        font-size: .7rem;
+    }
+    .designed-btn{
+        font-size: 13px;
+    }
+    .tesimonial-area img {
+        top: 19%;
+        position: relative;
+    }
+    .contact-info {
+        padding: 44px 40px;
+    }
+    .contact-form {
+        padding: 25px 50px;
+    }
+    .subscribe .newsletter .col-md-8 h3 {
+        font-size: 1rem;
+    }
+    .activity-area, .course-area, .about-area, .tesimonial-area, .contact-area, .subscribe, .footer-area {
+        padding: 67px 0px;
+    }
+    .paading-t150 {
+        padding-top: 48px;
+    }
+    .course-area .card-deck .card img {
+        padding: 24px 6px;
+    }
+}
+@media(min-width: 576px) and (max-width:767px){
+    .about-area .about-info {
+        margin-top: 30px;
+    }
+    .about-area img{
+        margin: auto;
+    }
+    .tesimonial-area img {
+       margin: auto;
+    }
+    .activity-area, .course-area, .about-area, .tesimonial-area, .contact-area, .subscribe, .footer-area {
+        padding: 60px 0px;
+    }
+    .subscribe .newsletter .col-md-8 h3 {
+        font-size: .8rem;
+    }
+    .footer-area p {
+        font-size: 12px;
+    }
+    .footer-area h6 {
+        font-size: 17px;
+    }
+    .paading-t150 {
+        padding-top: 30px;
+    }
+    .banner-area img {
+        padding-top: 42px;
+    }
+}
+@media(min-width: 320px) and (max-width:575px){
+    .banner-area h1 {
+        font-size: 34px;
+        padding-bottom: 0px;
+    }
+    .banner-area img {
+        padding-top: 42px;
+    }
+    .designed-btn {
+        font-size: 13px;
+    }
+    .about-area img{
+        margin: auto;
+    }
+    .activity-area, .course-area, .about-area, .tesimonial-area, .contact-area, .subscribe, .footer-area {
+        padding: 55px 0px;
+    }
+    .course-area h3, .about-area h3, .tesimonial-area h3, .contact-area h3 {
+        font-size: 36px;
+        padding-bottom: 48px;
+    }
+    .tesimonial-area img {
+        margin: auto;
+     }
+     .tesimonial-area p {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+    .contact-info {
+        padding: 43px 40px;
+    }
+    .contact-form {
+        padding: 30px 18px;
+    }
+    .subscribe .newsletter .col-md-8 h3 {
+        font-size: .6rem;
+    }
+    .subscribe .newsletter {
+        padding: 53px 20px;
+    }
+    .footer-area p {
+        font-size: 7px;
+        word-spacing: 0px;
+    }
+    .footer-area h6 {
+        font-size: 9px;
+        padding-bottom: 0px;
+    }
+    .paading-t150 {
+        padding-top: 35px;
+    }
+    .about-area p {
+        padding: 30px 6px;
+    }
+    .about-info::before, .about-info::after{
+        visibility: hidden;
+    }
+
+}
